@@ -1,0 +1,21 @@
+body {
+	padding: 200px;
+}
+.list {
+	display: inline-block;
+	position: relative;
+	max-width: 200px;
+	border: 1px solid #000000;
+	padding: 70px 10px 10px 10px;
+}
+.list::before {
+	content: "";
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+	position: absolute;
+	top: -50px;
+	left: 100px;
+	margin-left: -50px;
+	border-radius: 100%;
+}
